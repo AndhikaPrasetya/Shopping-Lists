@@ -1,0 +1,33 @@
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    /* border: 1px solid; */
+    width: 100%;
+    padding: 16px 0;
+  }
+  
+  .infoTotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: var(--main-font-color);
+    font-size: 12px;
+  }
+  
+  .infoTotal > p{
+    font-weight: bold;
+  }
+  
+  .hapusButton{ 
+    background-color: unset;
+    border: none;
+    padding: unset;
+    cursor: pointer;
+  
+    color: var(--danger-font-color);
+    font-size: 15px;
+    font-weight: bold;
+  }
